@@ -18,6 +18,7 @@
    height: 7rem;
    width: 7rem;
    border-radius: 1rem;
+   position: relative;
 }
 .name {
     font-size: 2rem;

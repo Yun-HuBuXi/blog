@@ -1,14 +1,18 @@
 import bhstyle from "../styles/backhome.module.css"
 import Head from "next/head"    
 import Link from "next/link"
+import Image from "next/image"
+
 export default function     BackHome({children}) {
+    const blanket = ''
     return (
         <div className={ bhstyle.backpage }>
         <Head>
-          <title>''</title>
+          <title>{blanket}</title>
         </Head>
           <header className={ bhstyle.header }>
-              <img className={ bhstyle.photo } src="/images/myphoto.jpg"/>
+          <div  className={ bhstyle.photo }><Image className={ bhstyle.photo} src="/images/myphoto.jpg" alt="" layout="fill"/>
+                </div>
               <h1 className={ bhstyle.name }>云胡不喜</h1>
   </header>
   <main>{children}</main>

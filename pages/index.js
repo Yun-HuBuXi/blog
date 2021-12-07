@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
         <Head>
-            <title>'Welcome to My Blog'</title>
+            <title>Welcome to My Blog</title>
         </Head>
         <Intro></Intro>
         <Content></Content>
