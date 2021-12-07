@@ -17,7 +17,7 @@ export default function     BackHome({children}) {
   </header>
   <main>{children}</main>
   <footer className={bhstyle.backhome}><Link href={'/'} ><a>⇐ 回去看看其他的</a></Link></footer>
-  <footer>Powered By HuangXin</footer>
+  <footer>Made By HuangXin</footer>
 </div>
     )
 }

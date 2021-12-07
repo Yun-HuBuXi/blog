@@ -15,7 +15,7 @@ export default function Layout({children}) {
                 <h1 className={ style.name }>云胡不喜</h1>
     </header>
     <main>{children}</main>
-    <footer>Powered By HuangXin</footer>
+    <footer>Made By HuangXin</footer>
   </div>
 )
 }
