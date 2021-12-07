@@ -14,8 +14,8 @@
 }
 .article {
     font-size: 1.4rem;
-    line-height: 1.4rem;
+    line-height: 2rem;
     margin: 0 0 1.4rem 0;
-    font-family: KaiTi;
-    font-weight: 550;
+    font-weight: 400;
+    color: #5B636A;
 }
