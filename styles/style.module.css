@@ -87,3 +87,12 @@
     line-height: 3.5rem;
     text-align:center;
 }
+
+.menu {
+    width: 12rem;
+    height: fit-content;
+}
+
+/* .item {
+    padding: auto;
+} */
